@@ -9,7 +9,7 @@
 <body>
   <main id = "main-doc">
     <section id = "Introduction" class = "main-section">
-      <h1>Introduction</h1>
+      <header>Introduction</header>
       <p>
         Java is a very popular and common programming languages today. While it has been around since 1995, it has changed with multiple upgrades and interations. Java uses a compile-time system 
         for compiling code which makes catching errors and providing information about bugs easy. This can help with debugging and warriness of erros a vulnerabilities within applicaiton code. 
@@ -21,7 +21,7 @@
       </p>
     </section>
     <section id = "Common_Syntax" class = "main-section">
-      <h1>Common Syntax</h1>
+      <header>Common Syntax</header>
       <p> Some common syntax for Java that you may run into and see includes the following: </p>
       <ul>
         <li><code>Class file_name</code> this is usually at the very top of a java file. It essentially forces the user to use Object Oriented programming by forcing the creation of a class</li>
@@ -31,7 +31,7 @@
       <p>This in general is the basics to get started and create a simple "Hello World" file project.</p>
     </section>
     <section id = "Data_Types" class = "main-section">
-      <h1>Data Types</h1>
+      <header>Data Types</header>
       <p>
         Java is a static typed language which means that the user must assign all of the variables they create with the correct type. There are different specific scenarios and uses for each.
       </p>
@@ -47,7 +47,7 @@
       </ul>
     </section>
     <section id = "Variables" class = "main-section">
-      <h1>Variables</h1>
+      <header>Variables</header>
       <p>Variables are values/references stored in memory that can be accessed and reused multiple times. When assigning a variable it will look something like this.</p>
       <ul>
         <li><code> int myNum = 5;</code></li>
@@ -56,16 +56,90 @@
         <li><code>char charOne= 'D';</code></li>
         <li><code>boolean myBoo = True;</code></li>
       </ul>
-
     </section>
     <section id = "If_Else_Statements" class = "main-section">
-      <h1>If Else Statements</h1>
+      <header>If Else Statements</header>
+      <p> 
+        If-else statements are used to create conditionals within your code. For example, this is a statement that will branch your code depending on an action the program
+        or user takes. These are very common and useful for your programs and can help to make the program seem a bit more dynamic.
+      </p>
+      <div class = "if-code">
+        <code>if(item == true){
+          <br>
+          //perform this code
+          <br>
+        } else {
+          <br>
+          //do this instead
+          <br>
+        }
+        </code>
+      </div>
+
+      <p>
+        These can create branches in your code and allow for very different functionality based on how the user interacts with the program.
+      </p>
 
     </section>
-    <section id = "Loops_Basics" class = "main-section">
-      <h1>Loops Basics</h1>
-
+    <section id = "Loop_Basics" class = "main-section">
+      <header>Loop Basics</header>
+      <p>Loops are used to rerun a certain section of code multiple times. There are three different types of loops and they all function
+        and take input to determine the amount of times run, differently. There is the for loop, the while loop, and the do-while loop.
+      </p>
+      <p>
+        A while loop will loop as long as the condition statement following the while is true. In the below example, if myBool = false, 
+        the program will run until some code within the loop sets it to true. The do-while loop will run until the while condition, 
+        similarly to the while loop however, it will only check the condition at the end of each code run rather than the beginning. 
+        The for loop creates a loop that will run a specific amount of "n" times. This can be determined with variables or simply stated
+        that the program will loop n amount of times.
+      </p>
+      <ul>
+        <li><code>
+        while(myBool = false){
+          <br>
+        //block of code
+        <br>
+        }
+        </code></li>
+        <li><code>
+          do{
+          <br>
+          //block of code
+          <br>
+          }while(myBool = false);
+        </code></li>
+        <li><code>
+          for(int i = 0; i < n; i++){
+            <br>
+          //block of code
+          <br>
+          }
+        </code></li>
+      </ul>
     </section>
+    <section id = "References" class = "main-section">
+      <header>References</header>
+        <ul class = resource>
+          <li> My source for this information is <a href= "https://www.w3schools.com/java/default.asp" target = _blank> w3schools tutorials</a>. </li>
+        </ul>
+    </section>
+    <nav id = "navbar">
+      <header>Basic Java Skills</header>
+      <div class = divider></div>
+      <a class = "nav-link" href = #Introduction>Introduction</a>
+      <div class = divider></div>
+      <a class = "nav-link" href = #Common_Syntax>Common Syntax</a>
+      <div class = divider></div>
+      <a class = "nav-link" href = #Data_Types>Data Types</a>
+      <div class = divider></div>
+      <a class = "nav-link" href = #Variables>Variables</a>
+      <div class = divider></div>
+      <a class = "nav-link" href = #If_Else_Statements>If Else Statements</a>
+      <div class = divider></div>
+      <a class = "nav-link" href = #Loop_Basics>Loop Basics</a>
+      <div class = divider></div>
+      <a class = "nav-link" href = #References>References</a>
+    </nav>
   </main>
 </body>
 </html>
