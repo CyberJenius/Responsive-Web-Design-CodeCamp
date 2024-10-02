@@ -1,0 +1,116 @@
+body{
+  background-color: #FFDC7F;
+}
+
+nav{
+  background-color: #78B7D0;
+  padding: 20px;
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+  border-bottom: #16325B 1px solid;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #16325B;
+  font-family: Helvetica, sans-serif;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  transition: background-color, color, .3s;
+}
+
+nav a:hover{
+  background-color:#FFDC7F;
+  color:#78B7D0;
+}
+
+#welcome-section{
+  height: 100vh;
+}
+
+.header{
+  margin: auto;
+  text-align: center;
+  margin-top: 25vh;
+  color: #16325B;
+  font-size: 20vh;
+  font-family: Helvetica, sans-serif;
+}
+
+.intro{
+  margin: auto;
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 3vh;
+  color: #16325B;
+  font-family: Helvetica, sans-serif;
+}
+
+.projects{
+  background-color: #16325B;
+  padding: 30px;
+  margin: -30px;
+}
+
+.project-tile:nth-child(1){
+  margin-top: 8vh;
+}
+
+.project-tile{
+  text-align: center;
+  display: block flex;
+  gap: 10vh;
+  flex-direction: column;
+  font-family:Helvetica, sans-serif;
+  font-size: 3vh;
+  margin: auto;
+}
+
+.project-tile a{
+  text-decoration: none;
+  color:#FFDC7F;
+}
+
+.project-tile a:nth-child(2){
+  height: 50vh;
+  width: 25vw;
+  align-self: center;
+  margin-bottom: 10vh;
+}
+
+.project-tile a:nth-child(4){
+  height: 50vh;
+  width: 25vw;
+  align-self: center;
+}
+
+.img1{
+  align-self: center;
+  height: 50vh;
+  width: 25vw;
+  border-radius: 25%;
+  margin:auto;
+  margin-bottom: 10vh;
+}
+
+.img2{
+  align-self: center;
+  height: 50vh;
+  width: 25vw;
+  border-radius: 25%;
+  margin:auto;
+}
+
+.profiles{
+  background-color: #227B94;
+  margin: -10px;
+}
+
+
+
+
